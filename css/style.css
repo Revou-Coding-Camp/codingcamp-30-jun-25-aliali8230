@@ -314,7 +314,7 @@ body {
     color: var(--text);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .company-name {
         font-weight: lighter;
     }
