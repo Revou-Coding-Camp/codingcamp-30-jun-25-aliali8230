@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>PT. Sinar Mentari</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar-container">
+        <div class="left-side">
+          <!-- Tombol Dark Mode -->
+          <button id="toggleDark" class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+      
+          <!-- Logo dan Nama Perusahaan -->
+          <div class="company-identity">
+            <img src="./img/logo.png" alt="Logo Perusahaan" class="main-logo" />
+            <span class="company-name">PT. Sinar Mentari</span>
+          </div>
+        </div>
+      
+        <nav class="navlist">
+          <ul>
+            <li><a href="#home" class="nav-link">Beranda</a></li>
+            <li><a href="#services" class="nav-link">Layanan</a></li>
+            <li><a href="#contact" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>      
+  </header>
+<main>
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+      <h1>Solusi Cepat dan Rapi untuk Kebutuhan Dokumen Anda</h1>
+      <p>Kami menyediakan layanan fotokopi, printing, dan alat tulis dengan harga terjangkau dan kualitas terbaik.</p>
+      <a href="#contact" class="cta-button">Hubungi Kami</a>
+    </div>
+    <div class="hero-image">
+      <img src="./img/logo.png" alt="Ilustrasi layanan">
+    </div>
+  </section>
+<hr>
+  <!-- Partner Section -->
+  <section class="partner-section" id="partners">
+    <h2>Media kerjasama kami</h2>
+    <div class="partner">
+      <div class="kartu"><img src="./img/nestle.png" alt="Nestle" /></div>
+      <div class="kartu"><img src="./img/paper.png" alt="Paper" /></div>
+      <div class="kartu"><img src="./img/rokok.png" alt="Rokok" /></div>
+      <div class="kartu"><img src="./img/yakult.png" alt="Yakult" /></div>
+    </div>
+    <br>
+  </section>
+<hr>
+  <!-- Layanan Section -->
+  <section class="sec3" id="services">
+    <h1>Layanan Kami</h1>
+    <p>Kami melayani berbagai layanan seperti:</p>
+    <div class="layanan-cards">
+      <div class="cardv2">
+        <img src="./img/print.jpg" alt="Print Dokumen" />
+        <div class="layanan-info">
+          <h3>Print Dokumen</h3>
+          <p>Print dokumen Word, PDF, Excel, scan dan kirim file, cetak tugas, skripsi, brosur, hingga undangan.</p>
+        </div>
+      </div>
+
+      <div class="cardv2">
+        <img src="./img/pc.jpg" alt="Photocopy" />
+        <div class="layanan-info">
+          <h3>Photocopy</h3>
+          <p>Kami melayani fotokopi hitam-putih, warna, jilid spiral, hardcover, laminating, dan lain-lain.</p>
+        </div>
+      </div>
+
+      <div class="cardv2">
+        <img src="./img/tools.jpg" alt="Alat Tulis" />
+        <div class="layanan-info">
+          <h3>Alat Tulis</h3>
+          <p>Menyediakan berbagai jenis alat tulis kantor dan kebutuhan sekolah dengan kualitas terbaik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+</main>
+  <!-- Contact Section -->
+  <footer>
+    <section class="sec4" id="contact">
+      <h1>Hubungi Kami</h1>
+      <div class="contact-card">
+        <form class="contact-form">
+          <label for="name">Nama</label>
+          <input type="text" id="name" placeholder="Nama Anda" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email Anda" required />
+
+          <label for="message">Pesan</label>
+          <textarea id="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+      <p>atau hubungi kami melalui WhatsApp</p>
+      <a href="https://wa.me/6285295799734" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </section>
+<hr>
+    <div class="site-footer">
+      <p>&copy; 2025 PT. Sinar Mentari. All rights reserved.</p>
+      <p> Jl. Raya Garut-Tasik Km 8, Kp. Cigasong RT 03 RW 05, 
+       Kecamatan Cilawu, Kabupaten Garut | Telp: 0852-9579-9734</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
